@@ -1,0 +1,43 @@
+# Bundler
+/.bundle/
+/vendor/bundle/
+/vendor/cache/
+/lib/bundler/man/
+
+# Gem build artifacts
+*.gem
+*.rbc
+/pkg/
+/pkg-*
+
+# Tests & coverage
+/coverage/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+.rspec_status
+
+# Documentation
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+# Environment / local Ruby version managers
+.ruby-version
+.ruby-gemset
+.rvmrc
+.rbenv-gemsets
+
+# Lockfile — omit for a library gem (apps should check it in)
+Gemfile.lock
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.byebug_history
